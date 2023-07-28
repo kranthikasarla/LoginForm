@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.bg-container {
+  height: 100vh;
+}
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  margin-right: 200px;
+}
+.heading {
+  font-size: 50px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+.description {
+  font-size: 20px;
+  color: #475569;
+  font-family: 'Roboto';
+  margin-bottom: 40px;
+}
+.shop-button {
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  background-color: #0967d2;
+  border-radius: 8px;
+  border-width: 0px;
+  color: #ffffff;
+}
+.home-image {
+  height: 500px;
+  width: 500px;
+  margin-right: 40px;
+}
